@@ -1,0 +1,30 @@
+.gallery{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+
+    border: 1px red solid;
+}
+
+.pictures {
+    width: 360px;
+    height: 390px;
+    padding-left: 20px;
+    padding-top: 10px;
+
+}
+
+.backGraund{
+    background: white;
+    width: 400px;
+    height: 470px;
+    margin: 5px;
+    float: left;
+    border-radius: 15px;
+}
+.addPhoto {
+border: 1px red solid;
+display: flex;
+    justify-content: center;
+
+}

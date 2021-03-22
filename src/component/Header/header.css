@@ -1,0 +1,28 @@
+
+.fon{
+    background: white;
+    display: grid;
+    margin: 0 auto;
+    grid-template-areas:
+    "ads ads"
+    "article menu";
+    grid-template-rows: 100px 1fr;
+    grid-template-columns: 1fr 10%;
+
+}
+.mainArticle{
+    grid-area: article;
+    max-width: 1400px;
+    min-width: 900px;
+}
+
+.mainAds {
+    grid-area: ads;
+    width: 100%;
+    background: #666666;;
+}
+.mainNav {
+    grid-area: menu;
+
+}
+
